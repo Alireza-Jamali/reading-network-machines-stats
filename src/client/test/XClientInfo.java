@@ -4,6 +4,7 @@ package client.test;
  *
  * @author AezA
  */
+import server.XServer;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;

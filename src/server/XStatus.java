@@ -1,9 +1,10 @@
-package client.test;
+package server;
 
 /**
  *
  * @author AezA
  */
+import server.XServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.SocketChannel;

@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package client.test;
+package server;
 
 /**
  *
  * @author AezA
  */
+import client.test.XClientReqSim;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -29,7 +30,7 @@ public class XServer
     private Selector selector;
     InetSocketAddress address = new InetSocketAddress(66);
 
-    XServer(String s) {
+    public XServer(String s) {
         xClientIp = s;
     }
 
